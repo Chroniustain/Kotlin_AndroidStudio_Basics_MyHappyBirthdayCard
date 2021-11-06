@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Happy Birthday!</string>
+    <string name="happy_birthday_wish_text">"Happy Birthday to a sister who has the worlds greatest brother!"</string>
+    <string name="Identification_text">This is YOU...</string>
+    <string name="happy_birthday_wish_text2">"Dang, you're SO lucky!"</string>
+    <string name="Identification_text2"> ...and this is ME. </string>
+
+</resources>
