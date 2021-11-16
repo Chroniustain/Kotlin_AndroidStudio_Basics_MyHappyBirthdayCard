@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="@id/first_half_background"
         app:layout_constraintTop_toTopOf="@id/first_half_background"
         app:layout_constraintVertical_bias="0.113"
-        app:srcCompat="@drawable/funny_female_dog" />
+        app:srcCompat="@drawable/theatre_curtains" />
 
     <ImageView
         android:id="@+id/my_image"
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="@id/second_half_background"
         app:layout_constraintTop_toTopOf="@id/second_half_background"
         app:layout_constraintVertical_bias="0.559"
-        app:srcCompat="@drawable/funny_male_dog"/>
+        app:srcCompat="@drawable/theatre_curtains"/>
 
     <TextView
         android:id="@+id/sister_textview"
@@ -137,5 +137,21 @@
         app:layout_constraintEnd_toEndOf="@id/second_half_background"
         app:layout_constraintStart_toEndOf="@id/my_image"
         app:layout_constraintTop_toTopOf="@id/second_half_background" />
+
+
+    <ImageButton
+        android:id="@+id/reset_curtain_button"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="20dp"
+        android:background="#433F3F"
+        android:contentDescription="@string/reset_curtains"
+        android:tint="#FF6E40"
+        app:layout_constraintBottom_toBottomOf="@id/second_half_background"
+        app:layout_constraintEnd_toEndOf="@id/second_half_background"
+        app:layout_constraintStart_toStartOf="@id/second_half_background"
+        app:layout_constraintTop_toBottomOf="@id/me_button"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
